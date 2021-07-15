@@ -1,0 +1,8 @@
+Constructors--> public A() { n=0;}
+	          public A(int A) {n=a;}
+
+Mutator Functions-->  public void f() { n++;}
+		public void g() { 					f();n=2*n;f();
+			}
+Accessor Functions--> {return n;}
+ "n" is a private variable.
